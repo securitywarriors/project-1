@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FItness Freak</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <style>
+        body {
+            background-image: url('Images/pic.jpg');
+            /* background-position:center; */
+            background-repeat: no-repeat;
+            background-position: center top;
+            background-size: cover;
+            /* margin: 10px auto; */
+            /*  padding:350px; */
+            color: #ffffff;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .left {
+            /* border: 3px solid rgb(175, 23, 81); */
+            display: inline-block;
+            position: absolute;
+            left: 30px;
+            top: 10px;
+
+        }
+
+        .center {
+            /* border: 3px solid rgb(44, 2, 121); */
+            display: block;
+            width: 67%;
+            margin: 22px auto;
+        }
+
+        .right {
+            /* border: 3px solid rgb(219, 187, 6); */
+            display: inline-block;
+            position: absolute;
+            right: 30px;
+            top: 32px;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+
+            display: inline-block;
+
+        }
+
+        .navbar li a {
+            color: #ffffff;
+            text-decoration: none;
+            padding: 10px 16px;
+            font-size: 24px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: #220b47fb;
+            text-decoration: underline;
+            /* padding: 11px 21px;
+        font-size: 24px; */
+        }
+
+        .left img {
+            display: block;
+            width: 106px;
+            /* margin: auto; */
+            padding: 6px 23px;
+        }
+
+        .left div {
+            color: black;
+            text-align: center;
+            font-size: 24px;
+            line-height: 15px;
+        }
+
+
+
+
+        .butn {
+            border-radius: 7px;
+            border-radius: 7px;
+            margin: 4px 4px;
+            padding: 6px 10px;
+            border: 2px solid red;
+            border-radius: 14px;
+            background-color: #1d4440;
+            color: #f9f9f9;
+            cursor: pointer;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            /* display: inline-block; */
+
+        }
+
+        .butn:hover {
+            background-color: rgb(36, 39, 46);
+            cursor: pointer;
+        }
+
+        .conatiner {
+            /* border: 2px solid #f4f4ff; */
+            margin: 56px 20px;
+            padding: 45px;
+            width: 61%;
+            border-radius: 16px;
+        }
+
+        .forms input {
+            text-align: center;
+            display: block;
+            margin: 9px auto;
+            padding: 10px 2px;
+            /* border: 3px solid green; */
+            width: 281px;
+            border-radius: 13px;
+            font-size: 19px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .conatiner button {
+            display: block;
+            width: 102px;
+            font-size: 16px;
+            margin: 44px auto;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="Images/d4.png" alt="">
+
+            <div> Fitness Freaky</div>
+
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Registration</a></li>
+                <li><a href="#">Gym tour</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="butn">sign up</button>
+            <button class="butn">call us</button>
+        </div>
+    </header>
+    <div class="conatiner">
+        <h2>Want to be a fitness freak , Join us to get the best training</h2>
+        <form action="backend.php">
+            <div class="forms">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Phone number">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Your age">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Gender">
+            </div>
+            <div class="forms">
+                <input type="text" name="" placeholder="Email adress">
+            </div>
+            <button class="butn">Submit</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
